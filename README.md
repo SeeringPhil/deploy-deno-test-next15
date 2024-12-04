@@ -30,7 +30,7 @@ GitHub repository, follow these steps:
    freely by editing the `.github/workflows/deploy.yml` file in your repository.
 
 ### `deployctl` CLI
-
+curl -fsSL https://deno.land/install.sh | sh
 1. Install [`deployctl`](https://github.com/denoland/deployctl):
 
 ```bash
