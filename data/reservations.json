@@ -1,0 +1,62 @@
+[
+  {
+    "id": "res_001",
+    "slug": "mountain-getaway-2024",
+    "guestName": "Sarah Johnson",
+    "phoneLastFour": "1234",
+    "checkIn": "2024-02-15",
+    "checkOut": "2024-02-18",
+    "guests": 4,
+    "totalAmount": 1200,
+    "specialRequests": "Late checkout requested",
+    "status": "confirmed"
+  },
+  {
+    "id": "res_002", 
+    "slug": "winter-retreat-2024",
+    "guestName": "Michael Chen",
+    "phoneLastFour": "5678",
+    "checkIn": "2024-03-01",
+    "checkOut": "2024-03-05",
+    "guests": 6,
+    "totalAmount": 1800,
+    "specialRequests": "Anniversary celebration - champagne and flowers",
+    "status": "confirmed"
+  },
+  {
+    "id": "res_003",
+    "slug": "spring-escape-2024", 
+    "guestName": "Emily Rodriguez",
+    "phoneLastFour": "9012",
+    "checkIn": "2024-04-10",
+    "checkOut": "2024-04-14",
+    "guests": 2,
+    "totalAmount": 1000,
+    "specialRequests": "Quiet retreat for writing",
+    "status": "confirmed"
+  },
+  {
+    "id": "res_004",
+    "slug": "family-vacation-2024",
+    "guestName": "David Thompson",
+    "phoneLastFour": "3456",
+    "checkIn": "2024-05-20",
+    "checkOut": "2024-05-27",
+    "guests": 8,
+    "totalAmount": 2500,
+    "specialRequests": "Family reunion - need high chair and crib",
+    "status": "confirmed"
+  },
+  {
+    "id": "res_005",
+    "slug": "summer-bliss-2024",
+    "guestName": "Lisa Park",
+    "phoneLastFour": "7890",
+    "checkIn": "2024-06-15",
+    "checkOut": "2024-06-20",
+    "guests": 5,
+    "totalAmount": 1750,
+    "specialRequests": "Birthday celebration on June 18th",
+    "status": "confirmed"
+  }
+]

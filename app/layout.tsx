@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
 import Navbar from './components/Navbar';
-
+import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Next.js on Deno',
-  description: 'Deploy your Next.js application to Deno Deploy.',
+  title: 'Mountain Retreat - Luxury Rental Property',
+  description: 'Experience tranquility in our stunning lakeside mountain retreat. Perfect for getaways and special occasions.',
 };
 
 export default function RootLayout({
@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="antialiased">
         <Navbar />
         {children}
       </body>
