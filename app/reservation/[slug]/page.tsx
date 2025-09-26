@@ -17,7 +17,7 @@ export async function generateStaticParams() {
 
 export default function ReservationPage({ params }: ReservationPageProps) {
   param = await params
-  const reservation = reservationsData.find(res => res.slug === await params.slug);
+  const reservation = reservationsData.find(res => res.slug === await param.slug);
 
   if (!reservation) {
     notFound();
