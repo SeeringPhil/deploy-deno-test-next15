@@ -15,7 +15,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function ReservationPage({ params }: ReservationPageProps) {
+export default async function ReservationPage({ params }: ReservationPageProps) {
   const { slug } = await params;
   const reservation = reservationsData.find(res => res.slug === slug);
 
